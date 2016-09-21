@@ -1,0 +1,14 @@
+header{
+  background-color: #FFFFFF
+}
+li{
+  display: inline;
+}
+li a{
+  font-family: "Silom";
+  color: #47779A;
+  display: inline;
+}
+.link{
+  font-family: "Silom";
+}
