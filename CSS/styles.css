@@ -49,6 +49,7 @@ float: right;
 .bottomhalf{
   background-color: #DFDFDF;
   border: 10px solid #000;
+
 }
 .clearfix:after{
   visibility: hidden;
