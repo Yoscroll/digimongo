@@ -1,61 +1,68 @@
 header{
-  background-color: #FFFFFF;
+  background-color: #FFF
+}
+#logo{
+  float: left;
+}
+#digimon{
+  float: left;
+}
+#tllogo{
+  display: inline-block;
+}
+#navbar{
+  float: right;
+}
+#navbar li{
+  display: inline-block;
 }
 
-li a{
-  font-family: "Silom";
-  color: #47779A;
-  display: inline;
-}
-
-ul.list li{
-  display: inline;
-}
-nav{
-float: right;
-}
 
 .upperhalf{
   background-color: #0E588D;
-  padding: 30px;
-  background-image: url(../assets/hero.png);
+  height: 350px;
+  width: all;
+  background-image: url(../Assets/hero.png);
   background-repeat: no-repeat;
   background-position: right;
-  height: 800px;
+  padding: 100px;
 }
 .about{
-  background-color: #FFFFFF;
-  width: 500px;
-  height: 300px;
-  padding: 20px;
-  background-image: url(../assets/talkie.png);
-  background-repeat: no-repeat;
-  background-position: top right;
-  border-radius: 20px;
-}
-
-.text{
-  width: 300px;
   height: 200px;
-  float: left;
+  width: 500px;
+  background: #FFF;
+  border-radius: 20px;
+  padding: 10px;
+  background-image: url(../Assets/talkie.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  border:25px solid white;
+}
+.text{
+  width:60%;
+  height: auto;
 }
 
+.bottomhalf{
+  background-color: #DFDFDF;
+}
 .bott{
   width: 300px;
   height: 200px;
-  margin: 10px;
-  float: left;
+  background-color: #F0F0F0;
+  display: inline-block;
+  border-radius: 15px;
+  padding: 10px 30px;
 }
-.bottomhalf{
-  background-color: #DFDFDF;
-  border: 10px solid #000;
 
+footer{
+  background-color: #4A4A4A;
+  text-align: center;
+  height: 75px;
 }
-.clearfix:after{
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
+
+footer p{
+  color: white;
+  vertical-align:middle; 
+  display:inline-block; 
 }
