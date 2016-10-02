@@ -1,6 +1,9 @@
 header{
   background-color: #FFF
 }
+body{
+	font-family: 'Sarpanch', sans-serif;
+}
 #logo{
   float: left;
 }
@@ -15,9 +18,11 @@ header{
 }
 #navbar li{
   display: inline-block;
+  margin: auto 15px;
 }
-
-
+#navbar a:hover{
+	color: #F5A623;
+}
 .upperhalf{
   background-color: #0E588D;
   height: 350px;
@@ -42,9 +47,15 @@ header{
   width:60%;
   height: auto;
 }
-
+.text p{
+	font-family: 'Lato', sans-serif;
+	color: #4D4D4D;
+	font-size: 1.1em;
+}
 .bottomhalf{
   background-color: #DFDFDF;
+  text-align: center;
+
 }
 .bott{
   width: 300px;
@@ -53,6 +64,8 @@ header{
   display: inline-block;
   border-radius: 15px;
   padding: 10px 30px;
+  vertical-align: middle;
+  margin: 35px 20px;
 }
 
 footer{
@@ -65,4 +78,9 @@ footer p{
   color: white;
   vertical-align:middle; 
   display:inline-block; 
+}
+ol li{
+	text-align: left;
+	font-family: 'Lato', sans-serif;
+	color: #4D4D4D;
 }
